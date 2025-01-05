@@ -1,0 +1,12 @@
+<dependencies>
+    <dependency>
+        <groupId>org.hyperledger.fabric</groupId>
+        <artifactId>fabric-shim</artifactId>
+        <version>2.3.0</version> <!-- Or the required version -->
+    </dependency>
+    <dependency>
+        <groupId>org.hyperledger.fabric</groupId>
+        <artifactId>fabric-protos</artifactId>
+        <version>2.3.0</version> <!-- Or the required version -->
+    </dependency>
+</dependencies>

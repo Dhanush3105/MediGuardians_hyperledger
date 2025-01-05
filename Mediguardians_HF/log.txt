@@ -1,0 +1,1 @@
+Error: failed to read chaincode package at 'medi-tracking.tar.gz': open medi-tracking.tar.gz: no such file or directory
