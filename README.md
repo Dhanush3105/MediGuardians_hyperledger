@@ -1,3 +1,5 @@
+*********************  NOTE: FABRIC SAMPLES FOLDER IN MY REPO IS EMPTY NEED CHANGES, WILL DO IT SOON ****************************
+
 MediGuardians: Ensuring Quality and Safety in the Medical Supply Chain
 
 MediGuardians is an advanced IoT and blockchain-based solution aimed at ensuring the quality, traceability, and compliance of medical supplies throughout their lifecycle. The system is designed to address the challenges faced in managing sensitive medical consumables and medicines, ensuring they are stored and transported under optimal conditions and are of the highest quality when reaching healthcare facilities.
