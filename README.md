@@ -1,17 +1,47 @@
-*********************  NOTE: FABRIC SAMPLES FOLDER IN MY REPO IS EMPTY NEED CHANGES, WILL DO IT SOON ****************************
+MediGuardians – Ensuring Quality and Safety in the Medical Supply Chain
 
-MediGuardians: Ensuring Quality and Safety in the Medical Supply Chain
+Finalist Project – Smart India Hackathon 2024 (Hardware Edition)  
+Tech Stack: Hyperledger Fabric, Java Chaincode, IoT Sensors, FlutterFlow UI
 
-MediGuardians is an advanced IoT and blockchain-based solution aimed at ensuring the quality, traceability, and compliance of medical supplies throughout their lifecycle. The system is designed to address the challenges faced in managing sensitive medical consumables and medicines, ensuring they are stored and transported under optimal conditions and are of the highest quality when reaching healthcare facilities.
+Overview
 
-Key Features:
-IoT Temperature and Humidity Monitoring: Real-time monitoring of environmental conditions to ensure that medicines and consumables remain within prescribed temperature and humidity ranges during storage and transportation.
-Blockchain Traceability: Utilizes blockchain technology to securely record every transaction and movement of medical supplies, ensuring transparency and preventing fraud.
-Automated Quality Control: Smart contracts automatically reject substandard supplies based on predefined quality parameters, reducing human error and enhancing system reliability.
-FIFO Inventory Management: Implements a First-In-First-Out (FIFO) system for inventory management, ensuring that medical supplies are used in the correct order and minimizing wastage.
-Benefits:
-Enhanced Safety and Compliance: Guarantees that medical supplies are stored and transported within safe and compliant conditions.
-Increased Transparency: Provides a transparent view of the supply chain, ensuring that each product’s journey is fully traceable.
-Reduced Risks: Automated quality checks and real-time monitoring help minimize the risk of using low-quality or expired products.
-MediGuardians helps ensure that healthcare providers can trust the quality of the supplies they receive, ultimately improving patient safety and the efficiency of healthcare operations.
+MediGuardians is an advanced IoT + Blockchain solution designed to ensure the quality, traceability, and compliance of medical supplies across the healthcare supply chain. It addresses challenges in storage, transport, and verification of sensitive medicines and consumables.
 
+Key Features
+
+- IoT Monitoring: Real-time temperature and humidity tracking during storage and transport  
+- Blockchain Traceability: Secure ledger of every transaction using Hyperledger Fabric  
+- Automated Quality Rejection: Smart contracts auto-reject substandard items based on thresholds  
+- FIFO Inventory System: Ensures supplies are used in order, minimizing expiry and waste
+
+Benefits
+
+- Enhanced Patient Safety: Assures medical supplies are within safe conditions  
+- Full Transparency: End-to-end visibility of supply chain events  
+- Fraud Prevention: Immutable blockchain logs help prevent tampering  
+- Reduced Human Error: Automated quality control through smart contracts
+
+My Contribution
+
+- Built Java-based Chaincode modules for asset transfer, inventory management, and rejection handling  
+- Deployed and tested contracts using Hyperledger Fabric on local test network  
+- Contributed to FlutterFlow UI for hospital, supplier, and manufacturer dashboards  
+- Integrated IoT input logic for real-time quality validation (temperature and humidity)
+
+Repo Structure
+
+chaincode/                  - All Java smart contracts  
+scripts/                    - Fabric setup and deployment scripts  
+docs/                       - Presentations and chaincode tutorial  
+network.config / pom.xml    - Network and build configs  
+README.md                   - This file
+
+
+Note
+
+- This repo includes fabric-samples and may require reconfiguration  
+- A complete FlutterFlow UI prototype is hosted separately
+
+License
+
+MIT – Open for educational use and improvement.
